@@ -1,0 +1,3750 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass extarticle
+\begin_preamble
+\let\stdpart\part
+\renewcommand*{\part}{\clearpage\stdpart}
+\rhead{}
+\lhead{}
+\rfoot{}
+\setlength{\marginparwidth}{3cm}
+\def\mparsetup{%
+    \slshape\footnotesize%
+    \parindent=0pt \lineskip=0pt \lineskiplimit=0pt %
+    \tolerance=2000 \hyphenpenalty=300 \exhyphenpenalty=300%
+    \doublehyphendemerits=100000%
+    \finalhyphendemerits=\doublehyphendemerits}
+
+\let\oldmarginpar\marginpar
+
+\renewcommand{\marginpar}[1]{\oldmarginpar[\mparsetup\raggedleft{\hspace{0pt}{#1}}]{\mparsetup\raggedright{\hspace{0pt}{#1}}}}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 14
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 6cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename page_de_garde.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Avant-propos
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+chead{
+\backslash
+copyright 2012 markas-al-nour.org}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+partname{Leçon}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+floatname{algorithm}{Exercice}
+\end_layout
+
+\end_inset
+
+Ceci est la deuxième partie du fascicule créé par divers associations pour
+ un enseignement informatique de base.
+ La première partie a introduit les notions de base de l'informatique, Microsoft
+ Windows et Word.
+ Chaque leçon du document peut se faire en deux heures de temps.
+ La totalité des dix leçons se donne avec une leçon de révision et la dernière
+ leçon en examen.
+\end_layout
+
+\begin_layout Section
+Copyright et Copyleft
+\end_layout
+
+\begin_layout Standard
+Ce document est sous copyleft CC BY-SA, ce qui veut dire que vous pouvez
+ le copier et le diffuser, sous deux conditions:
+\end_layout
+
+\begin_layout Itemize
+Toujours garder les auteurs originaux dans l'œuvre
+\end_layout
+
+\begin_layout Itemize
+Mettre l'œuvre sous la même licence, donc aussi CC BY-SA
+\end_layout
+
+\begin_layout Standard
+Pour plus d'informations, vous pouvez aller sur 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+target "http://wiki.creativecommons.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Auteurs
+\end_layout
+
+\begin_layout Standard
+Les associations et personnes suivantes ont travaillé sur ce document de
+ cours se trouvent dans le tableau qui suit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="top">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../1-Word/Images/MAN-logo-nb.png
+	lyxscale 10
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "8cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Service Au Sahel Tchad (SAS) 
+\begin_inset Newline newline
+\end_inset
+
+Association à but non-lucratif 
+\begin_inset Newline newline
+\end_inset
+
+Centre de formation et de culture Markas-al-Nour
+\begin_inset Newline newline
+\end_inset
+
+Ecobank Tchad: 60001 00024 37193951501-86 
+\begin_inset Newline newline
+\end_inset
+
+Tel: +235 63 20 90 18
+\begin_inset Newline newline
+\end_inset
+
+http://markas-al-nour.org 
+\begin_inset Newline newline
+\end_inset
+
+info@markas-al-nour.org
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../1-Word/Images/tchad-amitie.png
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "8cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Mahamat Haroun Abakar
+\begin_inset Newline newline
+\end_inset
+
+mahathar2@yahoo.fr
+\begin_inset Newline newline
+\end_inset
+
+http://www.tchad-amitie.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../1-Word/Images/profeda-logo.png
+	lyxscale 40
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "8cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+ProFeDA
+\begin_inset Newline newline
+\end_inset
+
+Linus Gasser
+\begin_inset Newline newline
+\end_inset
+
+Tel:
+\begin_inset space ~
+\end_inset
+
++235 62 15 43 52
+\begin_inset Newline newline
+\end_inset
+
+http://profeda.org
+\end_layout
+
+\begin_layout Plain Layout
+info@profeda.org
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "8cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Itemize
+Samuel Schoofs - premières utilisations, retouches et idées
+\end_layout
+
+\begin_layout Itemize
+Viviane Gasser - correction orthographe
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Auteurs et initiataires de ce document
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Comment utiliser ce document
+\end_layout
+
+\begin_layout Standard
+L'informatique est un sujet qui évolue en tout temps, et il est parfois
+ difficile de prévoir les sujets à enseigner en étant sûr qu'ils seront
+ encore d'actualité et pertinents d'ici quelques années.
+ Pour cette raison il est important de savoir lire, comprendre et travailler
+ un document.
+\end_layout
+
+\begin_layout Standard
+Ce document se veut un document de travail.
+ Cela veut dire qu'il faut un engagement de la part des enseignants et de
+ la part des étudiants.
+ Voici les engagements à prendre:
+\end_layout
+
+\begin_layout Subsection
+Pour les enseignants
+\end_layout
+
+\begin_layout Standard
+En tant qu'enseignant, il faut s'assurer que
+\end_layout
+
+\begin_layout Itemize
+les étudiants suivent le cours avec le document - ils le tiennent ouvert
+ à la bonne page
+\end_layout
+
+\begin_layout Itemize
+les notes sont prises non pour recopier le document, mais pour le compléter
+\end_layout
+
+\begin_layout Itemize
+tout le monde a son document avec lui
+\end_layout
+
+\begin_layout Subsection
+Pour les étudiants
+\end_layout
+
+\begin_layout Standard
+Pour les étudiants, il est important de
+\end_layout
+
+\begin_layout Itemize
+ne pas copier le texte qui se trouve déjà dans le document
+\end_layout
+
+\begin_layout Itemize
+lire et poser des questions sur le texte dans le document
+\end_layout
+
+\begin_layout Itemize
+bien suivre les exercices
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/Clavier-Azerty-nb.png
+	lyxscale 20
+	width 7cm
+	rotateAngle 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Le clavier AZERTY d'un ordinateur
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Rappel et exercices
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Itemize
+Comment peut on allumer un ordinateur?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Comment peut on éteindre un ordinateur?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Qu’est ce qu’une session?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Comment se connecter?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Qu’est ce que le Bureau?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+C'est quoi les icônes du Bureau?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Comment déplacer les icônes du bureau de leur place initiale?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Qu’est ce qu’une fenêtre?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Qu’est ce qu’un logiciel?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Quels sont les programmes que vous connaissez?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Comment démarrer un logiciel?
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+C'est quoi Microsoft Office 2007?
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Quelques questions pour rappel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Adoum Moussa Lamine 
+\end_layout
+
+\begin_layout Plain Layout
+BP : 0001
+\end_layout
+
+\begin_layout Plain Layout
+Quartier : Abbori
+\end_layout
+
+\begin_layout Plain Layout
+Massokory (Tchad)
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 6cm
+\end_inset
+
+Alladoum Jacques
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 6cm
+\end_inset
+
+Moussoro
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 1.5cm
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 6cm
+\end_inset
+
+Massokory le 04 août 2011
+\end_layout
+
+\begin_layout Plain Layout
+Cher ami,
+\end_layout
+
+\begin_layout Plain Layout
+ça me fait plaisir d’avoir le temps de t’écrire cette note.
+ Comment vous vous portez à Moussoro ? J’espère que la saison des pluies
+ est satisfaisante pour vos champs et cultures.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Ici nous nous portons bien, sauf que la saison des pluies a mal démarré.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Le centre Markas-al–nour vient de proposer un deuxième cours de base niveau
+ 1 et niveau 2.
+ Je pense que c’est très intéressant de venir s'inscrire dans ce cours.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+À bientôt,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Adoum Moussa Lamine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Rappel word
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Images et listes avec Word 2007
+\end_layout
+
+\begin_layout Standard
+Microsoft Word est un logiciel de la compagnie Microsoft, qui permet d'écrire
+ des lettres et des cartes simples.
+\end_layout
+
+\begin_layout Section
+Ouvrir Microsoft Word 2007
+\end_layout
+
+\begin_layout Standard
+Cliquez sur Démarrer – Tous les programmes – Microsoft Office – Microsoft
+ Word 2007
+\end_layout
+
+\begin_layout Standard
+Faites attention à glisser doucement votre curseur sur la ligne grille.
+ Si vous mettez votre curseur sur Tous les programmes choisissez de mettre
+ votre curseur sur Microsoft Office puis suivez la ligne, glissez votre
+ curseur sur le tout dernier et cliquez maintenant sur Microsoft Word 2007
+ pour ouvrir.
+\end_layout
+
+\begin_layout Section
+Insertion d’une image à partir d'un fichier
+\end_layout
+
+\begin_layout Enumerate
+cliquez à l'endroit où vous souhaitez insérer l'image.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Sous l'onglet Insertion, dans le groupe Illustrations, cliquez sur Image.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Recherchez l'image à insérer.
+\end_layout
+
+\begin_layout Enumerate
+Double-cliquez sur l'image à insérer.
+ 
+\end_layout
+
+\begin_layout Standard
+Par défaut, Microsoft Word incorpore les images dans un document.
+ Il est possible de réduire la taille d'un fichier en liant l'image.
+ 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Incorporer veut dire insérer des informations créées dans un programme,
+ telles qu’un graphique ou une équation, dans un autre programme.
+ Une fois que l’objet est incorporé, les informations font partie du document.
+ Les modifications que vous effectuez dans l'objet sont reflétées dans le
+ document.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Lier veut dire d'insérer dans un document Word un lien sur les informations
+ créées dans un autre programme tout en maintenant un lien entre les deux
+ fichiers.
+ Lorsque les informations sont modifiées dans le fichier source, ces modificatio
+ns sont reflétées dans le document de destination.
+ Pour faire ceci, vous pouvez dans la boîte de dialogue 
+\emph on
+Insérer une image
+\emph default
+, cliquer sur la flèche à côté du bouton 
+\emph on
+Insérer
+\emph default
+, puis sur 
+\emph on
+Lier au fichier
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/tchad-amitie.png
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Tchad-amitie.com est un réseau social crée par des jeunes dignes, honnêtes
+ et expérimentés qui aiment unir tous les tchadiens sur un réseau unique.
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/logo_profeda.png
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Le Programme pour la Formation d'éducateurs, création de Documentation et
+ aide dans l'Administration est le nouveau projet des AET dans le cadre
+ d'un soutien pour les centres culturels au Tchad.
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/MAN-logo-nb.png
+	lyxscale 20
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Le centre culturel Markas-al-Nour fonctionne depuis 2003 à N'Djaména pour
+ former et soutenir les étudiants de N'Djaména.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Insérer des graphiques
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Listes : un niveau ou plusieurs niveaux
+\end_layout
+
+\begin_layout Standard
+Créez une liste à un seul niveau, ou bien créez une liste à plusieurs niveaux
+ pour afficher des listes dans une liste.
+\end_layout
+
+\begin_layout Standard
+Lorsque vous créez une liste à puces ou une liste numérotée, vous pouvez
+ effectuer une des opérations suivantes :
+\end_layout
+
+\begin_layout Itemize
+Utiliser les bibliothèques de puces et de numérotations
+\begin_inset Newline newline
+\end_inset
+
+Utiliser les formats de numérotation et de puces par défaut pour les listes,
+ personnaliser les listes ou sélectionner d'autres formats dans la bibliothèque
+ de puces et de numérotations.
+\end_layout
+
+\begin_layout Itemize
+Mettre en forme les puces ou les numérotations
+\begin_inset Newline newline
+\end_inset
+
+Utiliser une autre mise en forme pour les puces ou les numérotations que
+ pour le texte dans une liste.
+ Par exemple, cliquez sur un numéro et modifiez la couleur pour toute la
+ liste, sans toucher au texte de la liste.
+\end_layout
+
+\begin_layout Itemize
+Utiliser des images ou des symboles
+\begin_inset Newline newline
+\end_inset
+
+Créer une liste à puces graphiques pour accroître l'impact visuel d'un document
+ ou d'une page Web.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Tchad Amitié
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Tchad-amitie.com est un réseau social crée par des jeunes dignes honnêtes
+ expérimentés qui aiment unir tous les tchadiens sur un réseau unique.
+\end_layout
+
+\begin_layout Plain Layout
+Ce site sert à tout inscrit pour:
+\end_layout
+
+\begin_layout Itemize
+Publier ses articles, photos, vidéos...
+\end_layout
+
+\begin_layout Itemize
+Créer son curriculum vitae
+\end_layout
+
+\begin_layout Itemize
+Inviter un ou plusieurs ami(e)s
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Écrire et recevoir des messages
+\end_layout
+
+\begin_layout Itemize
+Discuter en ligne avec les ami(e)s
+\end_layout
+
+\begin_layout Itemize
+Faire des commentaires sur les publications de vos ami(e)s
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Lancer une requête pour embaucher les chômeurs
+\end_layout
+
+\begin_layout Plain Layout
+Voilà nos points de démarrage de ce site interactif tchad-amitie.com qui
+ nécessite un développement de votre part en l’enrichissant par votre apport
+ personnel.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Mahamat Haroun Abakar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Les listes à plusieurs niveaux
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Insertion d'un tableau
+\end_layout
+
+\begin_layout Standard
+Microsoft Office Word 2007 propose un certain nombre de tableaux préformatés
+ que vous pouvez insérer et qui contiennent des données.
+ Vous pouvez également sélectionner le nombre de lignes et de colonnes souhaité.
+ Il est possible d'insérer un tableau dans un document ou dans un autre
+ tableau pour créer un tableau plus complexe.
+\end_layout
+
+\begin_layout Section
+Utilisation de modèles de tableau
+\end_layout
+
+\begin_layout Standard
+Vous pouvez utiliser des modèles pour insérer un tableau basé sur un ensemble
+ de tableaux préformatés.
+ Les modèles de tableaux contiennent des données exemple pour vous aider
+ à vous représenter à quoi ressemblera le tableau une fois les données ajoutées.
+\end_layout
+
+\begin_layout Enumerate
+cliquez à l'emplacement où vous souhaitez insérer un tableau.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Sous l'onglet Insertion, dans le groupe Tableaux, cliquez sur Tableau, pointez
+ sur Tableaux rapides, puis sélectionnez le modèle souhaité.
+\end_layout
+
+\begin_layout Enumerate
+Remplacez les données du modèle par les données souhaitées
+\end_layout
+
+\begin_layout Section
+Supprimer une cellule
+\end_layout
+
+\begin_layout Enumerate
+Sélectionnez la cellule que vous souhaitez supprimer.
+ Pour cela, cliquez sur son bord gauche.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Sous Outils de tableau, cliquez sur l'onglet Disposition.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Dans le groupe Lignes et colonnes , cliquez sur Supprimer, puis cliquez
+ sur Supprimer les cellules.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Sélectionnez l'une des options suivantes : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Décaler les cellules vers la gauche
+\end_layout
+
+\begin_layout Itemize
+Décaler les cellules vers le haut
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+Word n'insère pas de nouvelle colonne.
+ Cette opération peut résulter en une ligne possédant moins de cellules
+ que les autres lignes.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Supprimer une cellule et déplacer d'une ligne vers le haut chaque cellule
+ restante de la colonne.
+ Une nouvelle cellule vide est ajoutée au bas de la colonne.
+\end_layout
+
+\begin_layout Itemize
+Supprimer la ligne entière
+\begin_inset Newline newline
+\end_inset
+
+Supprimer toute la ligne qui contient la cellule dans laquelle vous avez
+ cliqué.
+\end_layout
+
+\begin_layout Itemize
+Supprimer la colonne entière
+\begin_inset Newline newline
+\end_inset
+
+Supprimer toute la colonne qui contient la cellule dans laquelle vous avez
+ cliqué.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Mr Bacha Senoussi 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 6cm
+\end_inset
+
+Moussoro le 09/08/2011
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Voilà, j’ai reçu la facture de fournitures pour notre centre informatique
+ dont les produits sont dans le tableau ci-dessous :
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N°
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quantité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Prix unité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Prix total
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Claviers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10'000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100'000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Souris
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5'000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100'000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Câbles VGA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7'500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37'500
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+237'500
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Bacha Senoussi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Les tableaux en Word
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Ajouter une bordure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+Pour appliquer une bordure à certaines cellules d'un tableau, sélectionnez
+ les cellules, y compris les marques de fin de cellule.
+\end_layout
+
+\end_inset
+
+Effectuez l'une des opérations suivantes :
+\end_layout
+
+\begin_layout Standard
+Ajouter une bordure à une image, un tableau ou du texte
+\end_layout
+
+\begin_layout Enumerate
+Sélectionnez l'image, le tableau ou le texte auquel vous souhaitez appliquer
+ une bordure.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Sous l'onglet Mise en page, dans le groupe Arrière-plan de page, cliquez
+ sur Bordures de page.
+\end_layout
+
+\begin_layout Enumerate
+Dans la boîte de dialogue Bordure et trame, cliquez sur l'onglet Bordures,
+ puis sur l'une des options de bordure sous Type.
+\end_layout
+
+\begin_layout Enumerate
+Sélectionnez le style, la couleur et la largeur de la bordure
+\end_layout
+
+\begin_layout Enumerate
+Effectuez l'une des opérations suivantes :
+\end_layout
+
+\begin_layout Standard
+Pour placer des bordures sur certains côtés seulement de la zone sélectionnée,
+ cliquez sur Personnalisé, sous Type.
+ Sous Aperçu, cliquez sur les côtés du graphique ou cliquez sur les boutons
+ pour appliquer ou supprimer des bordures.
+\end_layout
+
+\begin_layout Standard
+Pour spécifier la position exacte d'une bordure de paragraphe par rapport
+ au texte, cliquez sur Paragraphe sous Appliquer à, cliquez sur Options,
+ puis sélectionnez les options de votre choix.
+\end_layout
+
+\begin_layout Standard
+Pour spécifier la page ou le tableau dans lequel la bordure doit apparaître,
+ cliquez sur l'option souhaitée dans Appliquer à.
+\end_layout
+
+\begin_layout Section
+Ajouter une bordure à une page
+\end_layout
+
+\begin_layout Enumerate
+Sous l'onglet Mise en page, dans le groupe Arrière-plan de page, cliquez
+ sur Bordures de page.
+ 
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Vérifiez que vous êtes bien sous l'onglet correct.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Cliquez sur l'une des options de bordure sous Type.
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+Pour appliquer une bordure artistique, telle que des arbres, sélectionnez
+ une option dans la zone Motif.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Pour spécifier qu'un côté déterminé d'une page, par exemple la partie supérieure
+ uniquement, doit être accompagné d'une bordure, cliquez sous Type sur Personnal
+isé.
+ Sous Aperçu, cliquez à l'endroit où vous souhaitez placer la bordure.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Sélectionnez le style, la couleur et la largeur de la bordure.
+\end_layout
+
+\begin_layout Enumerate
+Effectuez l'une des opérations suivantes :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pour spécifier la page ou la section dans laquelle la bordure doit apparaître,
+ cliquez sur l'option souhaitée sous Appliquer à.
+\end_layout
+
+\begin_layout Itemize
+Pour spécifier la position exacte de la bordure par rapport à la page, cliquez
+ sur Options, puis sélectionnez les options souhaitées.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/decoration1.png
+	lyxscale 20
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Images/decoration2.png
+	lyxscale 20
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Faire des bordures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Fichiers et dossiers
+\end_layout
+
+\begin_layout Standard
+L'ordinateur stocke toutes vos données sur son disque dur interne
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Parfois on trouve aussi une carte mémoire au lieu d'un disque dur
+\end_layout
+
+\end_inset
+
+.
+ Le système d'exploitation, les logiciels, les images, les sons, les documents
+ et toutes les autres données sont stockées dans ce qu'on appelle des 
+\emph on
+fichiers 
+\emph default
+et des 
+\emph on
+dossiers.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+dossiers Ils servent à organiser les données dans l'ordinateur.
+ Un dossier contient un mélange d'autres dossiers et de fichiers.
+ Un dossier en lui-même ne contient pas de données!
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+fichiers Ils sont utilisés pour stocker les données.
+ Par là il faut comprendre qu'on peut avoir des logiciels, documents, images
+ et autres éléments stockés dans un fichier.
+\end_layout
+
+\begin_layout Standard
+Le système d'exploitation Windows vous propose quelques dossiers utiles
+ pour stocker vos différents types de données:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Quotes eld
+\end_inset
+
+Mes
+\begin_inset space ~
+\end_inset
+
+documents
+\begin_inset Quotes erd
+\end_inset
+
+ est surtout utilisé pour stocker toutes les lettres, tableurs et autres
+ documents créées par l'utilisateur.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Quotes eld
+\end_inset
+
+Mes
+\begin_inset space ~
+\end_inset
+
+images
+\begin_inset Quotes erd
+\end_inset
+
+ pour stocker les images prises par un appareil photo
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Quotes eld
+\end_inset
+
+Ma
+\begin_inset space ~
+\end_inset
+
+musique
+\begin_inset Quotes erd
+\end_inset
+
+ pour stocker de la musique
+\end_layout
+
+\begin_layout Standard
+Il est fortement conseillé d'utiliser cette structure de dossiers pour l'enregis
+trement des documents, images et sons.
+\end_layout
+
+\begin_layout Section
+Créer un dossier
+\end_layout
+
+\begin_layout Standard
+A partir d'un certain nombre de fichiers dans les dossiers mentionnés ci-dessus,
+ il devient préférable d'avoir une organisation un peu plus élaborée.
+ Ceci peut se faire de deux manières:
+\end_layout
+
+\begin_layout Enumerate
+Donner des noms bien distincts aux fichiers
+\end_layout
+
+\begin_layout Enumerate
+Ajouter des dossiers et sous-dossiers (des dossiers dans des dossiers)
+\end_layout
+
+\begin_layout Standard
+Le mieux est de combiner les deux manières.
+ Pour les sous-dossiers, voici une proposition pour un ordinateur de bureau:
+\end_layout
+
+\begin_layout Itemize
+Mes Documents
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Personnel
+\end_layout
+
+\begin_layout Itemize
+Travail
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Lettres
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2010
+\end_layout
+
+\begin_layout Itemize
+2011
+\end_layout
+
+\begin_layout Itemize
+2012
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Factures
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2010
+\end_layout
+
+\begin_layout Itemize
+2011
+\end_layout
+
+\begin_layout Itemize
+2012
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+Ainsi on crée sous le dossier 
+\begin_inset Quotes eld
+\end_inset
+
+Mes Documents
+\begin_inset Quotes erd
+\end_inset
+
+ deux dossiers, un premier appelé 
+\begin_inset Quotes eld
+\end_inset
+
+Personnel
+\begin_inset Quotes erd
+\end_inset
+
+ et un deuxième appelé 
+\begin_inset Quotes eld
+\end_inset
+
+Travail
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Pour ce faire, vous ouvrez le dossier 
+\begin_inset Quotes eld
+\end_inset
+
+Mes Documents
+\begin_inset Quotes erd
+\end_inset
+
+ en cliquant 
+\emph on
+Démarrer
+\emph default
+ -> 
+\emph on
+Mes Documents
+\emph default
+.
+ Windows va ouvrir une fenêtre qui montre le contenu du dossier 
+\begin_inset Quotes eld
+\end_inset
+
+Mes Documents
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Sur la gauche vous trouvez une partie appelé 
+\emph on
+Gestion de fichiers
+\emph default
+ qui contient le lien 
+\emph on
+Créer un nouveau dossier
+\emph default
+.
+ cliquez là-dessus et un nouveau dossier va s'ouvrir.
+ 
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Vous pouvez aussi cliquer avec le bouton droit de la souris dans un espace
+ vide de la fenêtre, et choisir 
+\emph on
+Nouveau
+\emph default
+ -> 
+\emph on
+Dossier
+\end_layout
+
+\end_inset
+
+Sans attendre, écrivez le nom que vous désirez, dans l'exemple 
+\begin_inset Quotes eld
+\end_inset
+
+Personnel
+\begin_inset Quotes erd
+\end_inset
+
+, et confirmez avec la touche entrer.
+\end_layout
+
+\begin_layout Standard
+Maintenant que vous avez créé votre premier dossier, ajoutez un deuxième
+ dossier intitulé 
+\begin_inset Quotes eld
+\end_inset
+
+Travail
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Naviguer dans des dossiers
+\end_layout
+
+\begin_layout Standard
+Comme on l'a vu dans la section précédente, on peut ouvrir le dossier 
+\begin_inset Quotes eld
+\end_inset
+
+Mes Documents
+\begin_inset Quotes erd
+\end_inset
+
+ en cliquant sur 
+\emph on
+Démarrer
+\emph default
+ -> 
+\emph on
+Mes Documents
+\emph default
+.
+ Là-dedans il se trouve d'autres dossiers, toujours reconnaissables à leur
+ aspect jaune.
+\end_layout
+
+\begin_layout Standard
+Pour entrer dans un dossier, double-cliquez dessus.
+ Un double-clic se fait par une suite rapide de deux fois le bouton gauche
+ de la souris.
+ Exercez-vous pour fair un bon double-clic avec le dossier 
+\begin_inset Quotes eld
+\end_inset
+
+Personnel
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Maintenant que Windows vous affiche le dossier 
+\begin_inset Quotes eld
+\end_inset
+
+Personnel
+\begin_inset Quotes erd
+\end_inset
+
+ (qui est vide), vous pouvez retourner dans le dossier 
+\begin_inset Quotes eld
+\end_inset
+
+parent
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Le dossier 
+\begin_inset Quotes eld
+\end_inset
+
+parent
+\begin_inset Quotes erd
+\end_inset
+
+ est le dossier qui contient le dossier actuel.
+ Donc le dossier 
+\begin_inset Quotes eld
+\end_inset
+
+parent
+\begin_inset Quotes erd
+\end_inset
+
+ du dossier 
+\begin_inset Quotes eld
+\end_inset
+
+Personnel
+\begin_inset Quotes erd
+\end_inset
+
+ est le dossier 
+\begin_inset Quotes eld
+\end_inset
+
+Mes Documents
+\begin_inset Quotes erd
+\end_inset
+
+!
+\end_layout
+
+\begin_layout Standard
+Pour retourner dans le dossier parent, cliquez sur le dossier avec la flèche
+ verte qui pointe vers le haut.
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Dans Windows 7, on voit tous les dossiers dans une chaîne, et on peut directemen
+t atteindre les dossiers parents par un clic dans cette chaîne.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Exercice: Entrez dans le dossier 
+\begin_inset Quotes eld
+\end_inset
+
+Travail
+\begin_inset Quotes erd
+\end_inset
+
+ et créez tous les dossiers et sous-dossiers comme décrit dans la section
+ précédente.
+\end_layout
+
+\begin_layout Section
+Renommer un fichier ou un dossier
+\end_layout
+
+\begin_layout Standard
+On peut facilement renommer un fichier ou un dossier avec un clic droit
+ et en choisissant 
+\emph on
+Renommer
+\emph default
+.
+\end_layout
+
+\begin_layout Section
+Supprimer un dossier ou un fichier
+\end_layout
+
+\begin_layout Standard
+Pour supprimer un fichier ou un dossier, il suffit de faire un clic droit
+ avec la souris sur le fichier ou le dossier en question, et de choisir
+ 
+\emph on
+Supprimer
+\emph default
+.
+ Après confirmation du dialogue suivant, le dossier ou le fichier est transféré
+ dans ce qu'on appelle la 
+\begin_inset Quotes eld
+\end_inset
+
+Corbeille
+\begin_inset Quotes erd
+\end_inset
+
+, où il attend soit la suppression définitive, soit une remise en place.
+\end_layout
+
+\begin_layout Section
+Enregistrer dans un dossier
+\end_layout
+
+\begin_layout Standard
+Quand vous enregistrez un projet pour la première fois, ou si vous choisissez
+ 
+\emph on
+Enregistrer sous
+\emph default
+, vous avez la possibilité de changer le répertoire d'enregistrement avant
+ de faire un clic sur le bouton 
+\emph on
+Enregistrer
+\emph default
+.
+ Pour changer de dossier d'enregistrement, vous pouvez faire un double-clic
+ sur le dossier en question.
+\end_layout
+
+\begin_layout Part
+Microsoft Excel 2007
+\end_layout
+
+\begin_layout Standard
+Tandis que le Microsoft Word sert à écrire des lettres et des factures simples,
+ le Microsoft Excel est un tableur qui permet de traiter des données.
+ Parmis ces données, on trouve par exemple:
+\end_layout
+
+\begin_layout Itemize
+Liste de matériel pour une facture
+\end_layout
+
+\begin_layout Itemize
+Numéros de téléphone des connaissances
+\end_layout
+
+\begin_layout Itemize
+Travaux effectués avec les heures
+\end_layout
+
+\begin_layout Itemize
+Calendriers
+\end_layout
+
+\begin_layout Itemize
+Organiser un programme journalier
+\end_layout
+
+\begin_layout Itemize
+Calculs divers
+\end_layout
+
+\begin_layout Section
+Démarrer et créer un premier fichier
+\end_layout
+
+\begin_layout Standard
+Quand vous démarrez le logiciel Excel, il vous présente une feuille de travail
+ vide, qui contient des cellules.
+ Comme dans le cas de Microsoft Word 2007, vous avez le 
+\emph on
+Ribbon
+\emph default
+ en haut avec les divers onglets pour accéder aux fonctionalités d'Excel,
+ et le bouton Microsoft en haut à gauche pour enregistrer et commencer une
+ nouvelle feuille.
+\end_layout
+
+\begin_layout Standard
+Pour les divers exercices nous vous conseillons de recommencer chaque fois
+ une nouvelle feuille.
+ Pour ceci, vous pouvez cliquer sur le bouton Microsoft, et choisir 
+\emph on
+Nouveau
+\emph default
+ et confirmer.
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+La combinaison CTRL-n fait la même chose
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Affichage
+\end_layout
+
+\begin_layout Standard
+Au-dessus des cellules, on trouve les noms des 
+\emph on
+colonnes
+\emph default
+.
+ La première colonne s'appelle 'A', la deuxième 'B', et ainsi de suite.
+ Les colonnes peuvent être ajustées dans leur largeur en déplaçant le trait
+ de séparation entre eux avec un clic de la souris.
+\end_layout
+
+\begin_layout Standard
+Au-dessus des noms des colonnes on trouve encore la 
+\emph on
+barre des fonctions
+\emph default
+ qu'on verra dans la prochaine section.
+\end_layout
+
+\begin_layout Standard
+Sur le côté gauche des cellules on trouve les noms des 
+\emph on
+lignes
+\emph default
+.
+ Ceux-ci sont numérotés et commencent par '1', puis '2' et ainsi de suite.
+ Comme les colonnes, on peut ajuster la hauteur des lignes en déplaçant
+ le séparation entre eux avec un clic de la souris.
+\end_layout
+
+\begin_layout Standard
+Tout en bas on trouve encore les noms des 
+\emph on
+feuilles
+\emph default
+.
+ Avec un nouveau document, Excel nomme les feuilles 
+\emph on
+Feuil1
+\emph default
+, 
+\emph on
+Feuil2
+\emph default
+ et 
+\emph on
+Feuil3
+\emph default
+.
+\end_layout
+
+\begin_layout Section
+Saisir les données
+\end_layout
+
+\begin_layout Standard
+Les données dans Excel sont organisées dans ce qu'on appelle des 
+\emph on
+cellules
+\emph default
+.
+ Chaque cellule peut contenir une certaine donnée, par exemple:
+\end_layout
+
+\begin_layout Itemize
+du texte, des noms ou des descriptions
+\end_layout
+
+\begin_layout Itemize
+des numéros, des prix, des quantités
+\end_layout
+
+\begin_layout Itemize
+des formules, calculs, totaux, TVA
+\end_layout
+
+\begin_layout Standard
+Il n'est pas possible de mélanger des données dans une même cellule.
+ Pour ceci il faut utiliser plusieurs cellules.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Facture
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mahamat
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Younous
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quantité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Prix unité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Prix total
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sacs ciment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12'500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+125'000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sable, petit camion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30'000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30'000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+155'000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Copiez ce tableau suivant dans votre premier fichier Excel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Format des cellules
+\end_layout
+
+\begin_layout Standard
+Tout comme dans le Microsoft Word, vous pouvez changer le format du texte
+ et des numéros dans les cellules.
+ Dans l'exercice précédent, faites les changements suivants:
+\end_layout
+
+\begin_layout Itemize
+Mettre en gras les titres des colonnes (Description, Quantité, Prix unitaire
+ et Total)
+\end_layout
+
+\begin_layout Itemize
+Aligner à droite tous les chiffres
+\end_layout
+
+\begin_layout Itemize
+Ajuster la largeur de la première colonne pour qu'on puisse voir tout le
+ texte
+\end_layout
+
+\begin_layout Part
+Cellules
+\end_layout
+
+\begin_layout Standard
+Comme on l'a vu dans la section précédente, les cellules peuvent contenir
+ différents types de données.
+ En plus de cela, chaque cellule à un 
+\emph on
+nom
+\emph default
+.
+ Le nom de chaque cellule est donné par la 
+\emph on
+colonne
+\emph default
+ et la 
+\emph on
+ligne
+\emph default
+ où cette cellule se trouve.
+ Les colonnes sont nommées de 'A' à 'Z', tandis que les lignes sont numérotées
+ en commençant par '1'.
+ On fait référence à une cellule en collant le nom de la colonne au nom
+ de la ligne.
+\end_layout
+
+\begin_layout Standard
+Voir la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Exercice-pour-les"
+
+\end_inset
+
+ pour un exercice.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/excel_noms.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Exercice-pour-les"
+
+\end_inset
+
+Exercice pour les noms des cellules
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Retrouvez le texte dans les cellules suivantes:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Recherche de cellules
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Maintenant trouvez le nom des cellules avec le texte suivant:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+commencement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+vide
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+terre
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dieu
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+informe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+était
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+cieux
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+la
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+et
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Recherche de texte
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Copier des cellules
+\end_layout
+
+\begin_layout Standard
+Comme dans le Microsoft Word, on peut copier-coller des cellules.
+ En haut à gauche vous avez les icônes pour le copier-coller.
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Vous pouvez aussi utiliser CTRL-c pour copier et CTRL-v pour coller.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Fusion
+\end_layout
+
+\begin_layout Standard
+Parfois on veut écrire un texte ou un numéro au-dessus de certains cellules,
+ et alors il est plus agréable pour la lecture de voir le texte au-dessus
+ de toutes les cellules.
+ On y arrive grâce à la 
+\emph on
+fusion
+\emph default
+ de cellules.
+ Dans la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fusionner-des-cellules"
+
+\end_inset
+
+ on voit deux fois le même tableau, mais une fois le mot 
+\begin_inset Quotes eld
+\end_inset
+
+Facture
+\begin_inset Quotes erd
+\end_inset
+
+ et au-dessus de tout les autres cellules.
+ Pour ce faire, on sélectionne les cellules au-dessus du tableau (A1 à D1)
+ et on appuie sur le bouton 
+\emph on
+Fusionner et centrer
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/excel_fusion_1.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Images/excel_fusion_2.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fusionner-des-cellules"
+
+\end_inset
+
+Fusionner des cellules
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Des cellules fusionnées peuvent aussi être départagées en les sélectionnant
+ et en choisissant de nouveau le bouton 
+\emph on
+Fusionner et centrer.
+\end_layout
+
+\begin_layout Section
+Listes de numéros
+\end_layout
+
+\begin_layout Standard
+Si on veut faire une suite de numéros, Excel permet qu'on ne doive pas écrire
+ à la main tous les numéros.
+ Pour voir comment ça marche, commencez une nouvelle feuille, et écrivez
+ le numéro 1 dans la cellule A1.
+\end_layout
+
+\begin_layout Standard
+Maintenant cliquez sur le petit carré noir en bas à droite de la cellule
+ A1 et cliquez-déplacez la sélection (le rectangle noir) jusqu'à la cellule
+ A10.
+ D'abord Excel va remplir toutes les cellules avec le numéro 1.
+ Mais il y a un petit icône en bas à gauche de la cellule A10.
+ cliquez dessus et choisissez 
+\emph on
+Incrémenter une série.
+\end_layout
+
+\begin_layout Standard
+Prenez la cellule A4 et étendez-là jusqu'à la cellule F4, et choisissez
+ de nouveau 
+\emph on
+Incrémenter une série
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Faites la même chose avec la cellule E4 jusqu'à la cellule E10.
+\end_layout
+
+\begin_layout Standard
+Vous devriez avoir le résultat dans la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Incrémenter-automatiquement-des"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/excel_increment.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Incrémenter-automatiquement-des"
+
+\end_inset
+
+Incrémenter automatiquement des numéros
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Formes des tableaux
+\end_layout
+
+\begin_layout Standard
+Pour améliorer la lisibilité des tableaux, on peut insérer des bordures
+ autour des cellules et des couleurs.
+ Toutefois il faut toujours faire attention à ne pas trop en faire pour
+ ne pas gâcher la lisibilité.
+\end_layout
+
+\begin_layout Section
+Ajouter des colonnes ou des lignes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+Dans le ruban sous 
+\size normal
+\emph on
+Accueil
+\emph default
+, on trouve aussi un bouton appelé 
+\emph on
+Insérer
+\emph default
+ sous le groupe 
+\emph on
+Cellules
+\emph default
+ qui fait la même chose.
+\end_layout
+
+\end_inset
+
+Il est également possible d'ajouter de l'espace pour insérer plus de données.
+ Vous pouvez faire ça en cliquant avec le bouton droit sur le nom de la
+ ligne ou de la colonne et en choisissant 
+\emph on
+Insertion
+\emph default
+.
+\end_layout
+
+\begin_layout Part
+Formules simples
+\end_layout
+
+\begin_layout Standard
+Une fonction très puissante dans le logiciel Excel sont les formules, qui
+ permettent de faire des calculs qui sont tenus à jour automatiquement!
+ Les exemples les plus souvents rencontrés sont:
+\end_layout
+
+\begin_layout Itemize
+Calcul de prix à partir de la quantité et du prix par unité
+\end_layout
+
+\begin_layout Itemize
+Somme totale d'une liste de prix
+\end_layout
+
+\begin_layout Itemize
+Calcul de la TVA
+\end_layout
+
+\begin_layout Section
+Comment entrer une formule
+\end_layout
+
+\begin_layout Standard
+Toute cellule qui commence avec le signe '=' est interprétée comme une formule.
+ Dans le cas plus simple, on peut faire un simple calcul.
+ Entrez dans la cellule A1 la formule suivante:
+\end_layout
+
+\begin_layout Standard
+=56*78
+\end_layout
+
+\begin_layout Standard
+et confirmez avec la touche entrer.
+ La cellule ne va plus afficher la formule, mais directement le résultat
+ de celle-ci, donc dans ce cas 4872.
+ Si vous voulez changer la formule, vous double-cliquez sur la cellule,
+ et vous verrez de nouveau appraître la formule.
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+La formule s'affiche aussi dans la barre de formules en haut de la feuille
+ si on fait un simple clic sur la cellule
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Écrivez dans les cellules indiquées les formules suivantes:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A2 =123+456
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+B1 =55*23
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+A3 =111+45*34
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+B2 =(11+23)*23
+\end_layout
+
+\begin_layout Standard
+Vérifiez que vous avez bien le résultat dans la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Calculs-simples,-deu"
+
+\end_inset
+
+ à gauche.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/excel_calcul_simple_1.png
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Images/excel_calcul_simple_2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Calculs-simples,-deu"
+
+\end_inset
+
+Calculs simples, deux exemples
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Maintenant ajoutez à chaque formule '+1' et vérifiez les résultats dans
+ la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Calculs-simples,-deu"
+
+\end_inset
+
+ à droite.
+\end_layout
+
+\begin_layout Section
+Utilisation pour mise à jour automatique
+\end_layout
+
+\begin_layout Standard
+Les numéros d'une formule peuvent être des 
+\emph on
+références
+\emph default
+ à d'autres cellules.
+ Ceci veut dire qu'on peut facilement faire une liste d'objets avec leur
+ prix à l'unité, le nombre et le prix total, comme dans la figure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/excel_formule_simple.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Exemple-pour-un"
+
+\end_inset
+
+Exemple pour un calcul simple
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Recopiez ce tableau dans un nouveau classeur dans Excel.
+\end_layout
+
+\begin_layout Standard
+Maintenant nous allons ajouter une formule qui permettra de faire une mise
+ à jour automatique.
+ Écrivez la formule suivante dans la cellule D2:
+\end_layout
+
+\begin_layout Standard
+=B2*C2
+\end_layout
+
+\begin_layout Standard
+Cette formule dit qu'il faut prendre le nombre dans la cellule B2 et le
+ multiplier par le nombre trouvé dans la cellule C2.
+ Comme B2 contient la quantité et C2 le prix par unité, le résultat est
+ donc le prix total.
+\end_layout
+
+\begin_layout Standard
+Maintenant vous pouvez changer la quantité dans la cellule B2 ou le prix
+ dans la cellule C2.
+ Après avoir appuyé sur la touche entrer, le résultat va s'afficher automatiquem
+ent!
+\end_layout
+
+\begin_layout Standard
+Faites les formules appropriées pour D3 et D4.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/excel_formule_simple_2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Calculez le prix dans ce tableau, à l'aide des formules Excel!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Formules plus complexes
+\end_layout
+
+\begin_layout Standard
+Sans entrer dans les détails, on va voir toutes les formules nécessaires
+ pour faire une facture en bonne et due forme.
+ Tout d'abord on va voir comment copier des formules, calculer un total
+ et finir avec la TVA.
+\end_layout
+
+\begin_layout Section
+Copier les formules
+\end_layout
+
+\begin_layout Standard
+Si on reprend l'exercice précédent, on voit qu'on a dû entrer une formule
+ très similaire plusieurs fois.
+ Les ordinateurs peuvent souvent nous aider pour des tâches répétitives
+ et ainsi nous libérer pour faire autre chose.
+ Dans le cas précis, Excel peut compléter les formules sur la base d'un
+ premier exemple!
+\end_layout
+
+\begin_layout Standard
+Recopiez encore une fois le tableau de l'exercice précédent.
+\end_layout
+
+\begin_layout Standard
+Cette fois-ci ne copiez que la première formule dans la cellule D2.
+ Pour les autres cellules, au lieu de recopier la formule à la main, il
+ suffit de faire le cliquer-déplacer du rectangle en bas à droite de notre
+ formule, et d'étendre la sélection jusqu'à la cellule D4.
+ Voilà, c'est fini! Ainsi vous n'avez besoin d'écrire la formule qu'une
+ seule fois, et Excel va la copier.
+\end_layout
+
+\begin_layout Section
+Total
+\end_layout
+
+\begin_layout Standard
+Maintenant que nous avons les prix des différents articles, on veut faire
+ le total pour savoir combien le client nous doit.
+ Il suffit alors de cliquer en bas de la colonne, en-dessous de la dernière
+ formule (cellule D5), et de choisir l'icône 
+\begin_inset Formula $\sum$
+\end_inset
+
+ dans le groupe 
+\emph on
+Edition
+\emph default
+.
+ Après confirmation avec la touche entrer, le total est calculé! Sans avoir
+ besoin de prendre la calculette.
+\end_layout
+
+\begin_layout Standard
+Si vous changez maintenant une quantité ou le prix d'une marchandise, tous
+ les totaux vont se mettre à jour automatiquement! Essayez-le avec plusieurs
+ valeurs.
+\end_layout
+
+\begin_layout Section
+TVA
+\end_layout
+
+\begin_layout Standard
+Au Tchad, la TVA se monte à 18% de la valeur marchande.
+ Même si certains entreprises en sont exemptes, d'autres doivent la payer.
+ On peut alors facilement calculer la TVA à partir du total calculé en haut.
+\end_layout
+
+\begin_layout Standard
+Sélectionnez la cellule en-dessous du total (cellule D6), et commencez avec
+ la touche '='.
+ Maintenant cliquez dans la cellule du total, et le nom de cette cellule
+ va s'afficher automatiquement.
+ Pour finir la formule de la TVA, il suffit de compléter '*18%' et de confirmer
+ par la touche entrer.
+ Excel va maintenant calculer 18% de la valeur affichée dans la cellule
+ du total.
+\end_layout
+
+\begin_layout Standard
+Finalement il faut encore additioner le total (qui est devenu un sous-total)
+ et la TVA.
+ cliquez dans la cellule en-dessous de la TVA, commencez une formule avec
+ la touche '=', cliquez sur le sous-total, continuez avec la touche '+',
+ cliquez sur la TVA et confirmez avec entrer.
+\end_layout
+
+\begin_layout Standard
+Vous devriez maintenant avoir le sous-total, la TVA et le total qui se calculent
+ automatiquement!
+\end_layout
+
+\begin_layout Standard
+Pour faire plus joli, finissez de remplir les cellules C5 à C7 avec du texte
+ qui convient (sous-total, TVA et total).
+\end_layout
+
+\begin_layout Standard
+Les formules insérées devraient correspondre à la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Les-formules-pour"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/excel_formule_tva_visible.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Les-formules-pour"
+
+\end_inset
+
+Les formules pour la TVA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
